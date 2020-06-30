@@ -75,7 +75,7 @@ class RandomWordsState extends State<RandomWords> {
       trailing: Icon(   // NEW from here...
       alreadySaved ? Icons.favorite : Icons.favorite_border,
       color: alreadySaved ? Colors.red : null,
-    ),  
+    ),
     );
   }
 }
